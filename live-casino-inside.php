@@ -18,7 +18,14 @@
                 <div class="clearfix"></div>
                 <div class="live-casino-back">
                   
-                
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                        <ul class="gtey_navi">
+                           <li>Slots Providers:</li>
+                            <li><a href="#">NetEnt</a></li>
+                            <li><a href="#">Aristocrats</a></li>
+                            <li><a href="#">PSN</a></li>
+                        </ul>
+                  </div>
                   
                        <div class="col-md-3 col-sm-3 col-xs-6">
                      <div class="live-casino-box-game live-casino-box-game-box">

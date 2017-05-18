@@ -35,6 +35,45 @@
 
 
 
+
+ <!--- LoginModal - Affiliate --->
+
+ <div class="modal fade" id="loginaffiliate" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+    <div class="modal-body">
+           <div class="logo_box">
+                <a href="/" class="logo_min"></a>
+                <div class="clearfix"></div>
+            </div>
+            
+        <h1 class="title-center">Wellcome</h1>
+        <p class="title-center">dr, Affiliates</p>
+        <form role="form">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="login" placeholder="Enter your login">
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                  </div>
+                  <div class="text_login_form"><a data-toggle="modal" data-target="#forgotpass">Forgot Password</a></div>    
+                           
+                  <button type="submit" class="btn btn-primary btn-lg btn-center">Login</button>
+                </form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!--- LoginModal - Affiliate --->
+ 
+ 
+
+
  <!--- Forgot Password Modal --->
 
  <div class="modal fade" id="forgotpass" tabindex="-1" role="dialog">

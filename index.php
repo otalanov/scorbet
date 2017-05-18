@@ -2,6 +2,45 @@
 <?php include 'theme-part/header-top-menu.php'; ?>
 <?php include 'theme-part/header-right-menu.php'; ?>
 
+<style>
+  .carousel-inner .slider-caption {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0 25px;
+    background-color: rgba(18, 18, 18, 0.75);
+  }
+  .slider-caption span.club {
+    margin: 0 15px;
+  }
+  .slider-caption .slide-odds {
+    margin-top: 20px;
+  }
+  .slider-caption .slide-odds a {
+    border-radius: 20px;
+    font: 700 15px / 18px 'Open Sans';
+    cursor: pointer;
+    transition: 0s;
+    overflow: hidden;
+    background-color: #edc730;
+    color: #333;
+    padding: 5px 12px;
+    margin: 0 10px;
+  }
+  .slider-caption .slide-odds a:hover {
+    text-decoration: none;
+    color: #000;
+    background: #e0b300;
+    border-color: #e0b300;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 13px rgba(237,199,48,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 13px rgba(237,199,48,.6);
+    transition: 0.5s;
+  }
+
+</style>
+
 <div id="fullpage">
 	<div class="section active" id="section0">
 	    <div class="container">
@@ -11,14 +50,26 @@
                     <div class="title_slider_boxes"><span>Best online offers</span></div>
                    <div id="info-carousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
-                                <div class="item active">
+                                <div class="item">
                                   <img src="images/gonzoslider.jpg" />
                                 </div>
                                 <div class="item">
                                   <img src="images/gonzoslider.jpg" />
                                 </div>
-                
-                              </div>
+                                <div class="item active">
+                                  <img src="http://www.juventusclubandria.com/public/news/912.jpg" alt="">
+                                  <div class="slider-caption">
+                                    <h4 class="slide-title caption-2 ">
+                                      <span class="club">FC Juventus</span> vs <span class="club">Real Madrid FC</span>
+                                    </h4>
+                                    <div class="slide-odds">
+                                      <a href="#" class="slide-odd-home">1.52</a>
+                                      <a href="#" class="slide-odd-draw">2.32</a>
+                                      <a href="#" class="slide-odd-guest">3.51</a>                        
+                                    </div>
+                                  </div>
+                                </div>
+                      </div>
                     </div>
                       <a class="right carousel-control" href="#info-carousel" data-slide="next">
                   <i class="fa fa-angle-right" aria-hidden="true"></i>

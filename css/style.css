@@ -1356,8 +1356,35 @@ box-shadow: 0px 0px 28px 0px rgba(0,0,0,1);
 
 
 .modal-content {
-    background-color: #1b1b1b; 
+    background-color: rgba(27, 27, 27, 0.9); 
 }
+
+
+.modal-content .logo_box .logo_min {
+    display: block;
+    float: none;
+    margin: 0px auto;
+}
+.modal-content .text_login_form {
+    text-align: center;
+}
+.modal-content .text_login_form a {
+    display: inline-block;
+    color: #ffffff;
+    font: 400 15px / 15px 'Open Sans';
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #fff;
+    transition: 0.5s;
+}
+
+.modal-content .text_login_form a:hover {
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff;
+    transition: 0.5s;
+}
+
+
 
 .modal-backdrop.in {
     filter: alpha(opacity=50);
@@ -1860,12 +1887,13 @@ margin-left: 19%;
 
 /**** Registration ****/
 
-.registration_page {
-    background: #121212 url(../images/scorbet_create_acc_back.jpg) no-repeat bottom center;
-    min-height: 700px;
-    padding-top: 120px;
-    margin-left: 80px;
-}
+    .registration_page {
+        background: #121212 url(../images/scorbet_create_acc_back.jpg) no-repeat top center;
+        background-size: cover;
+        min-height: 700px;
+        padding-top: 120px;
+        margin-left: 80px;
+    }
 
 .registration_page h1 {
     color: #fff;
@@ -1890,6 +1918,7 @@ margin-left: 19%;
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 3px;
+    margin-top: 3px;
 }
 .registration_box h3 span {
     display: inline-block;
@@ -1956,9 +1985,10 @@ margin-left: 19%;
 .registration_box .row {
     margin: 15px 0px;
 }
-.setup-content div[class*=col-md] {
-    padding: 0 5px;
-}
+.setup-content div[class*=col-md],
+    .form_regist div[class*=col-md] {
+        padding: 0 5px;
+    }
 
 .registration_box .btn-primary {
     margin: 20px auto 10px auto;
@@ -2003,6 +2033,50 @@ margin-left: 19%;
     color: #fff;
 }
 
+
+
+   .procent_box_affil_all .procent_box_affil {
+        margin: 5px auto;
+        background: rgba(255, 255, 255, 0.5);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        color: #ffffff;
+        font: 400 42px / 96px 'Roboto Condensed';
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+    }
+    
+    .procent_box_affil_all .procent_box_affil_text {
+        margin-top: 10px;
+        color: #ffffff;
+        font: 300 20px / 26px 'Roboto Condensed';
+        text-align: center;
+    }
+    
+    .procent_box_affil_all .procent_box_affil_all {
+        margin-bottom: 30px;
+    }
+    
+    .registration_page .margin5 {
+        margin: 5px !important;
+    }
+    
+    .registration_page label {
+        text-align: center;
+        color: #5d5d5d;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    
+    .registration_page .btn-red.btn-primary {
+        border-color: red !important;
+    }
+
+
+
+
 .registration_box .form-control::-webkit-input-placeholder, 
 .registration_box .form-control::-moz-placeholder,          
 .registration_box .form-control:-moz-placeholder,     
@@ -2039,6 +2113,13 @@ margin-left: 19%;
     color: #fff;
     font: 400 20px / 23px 'Roboto Condensed';
 }
+
+.registration_box .pass-params {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 5px 15px 5px 15px;
+}
+
 /**** Registration ****/
 
 

@@ -4,7 +4,34 @@
 <?php include 'theme-part/header-top-menu.php'; ?>
 <?php include 'theme-part/header-right-menu.php'; ?>
 
-
+<style>
+  .account_page .my_account_box .login_live_box .user_avatar_box {
+    margin: 22px auto;
+  }
+  .account_page .my_account_box .login_live_box .acc_link {
+    line-height: 18px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .account_page .my_account_box .login_live_box .acc_delete a .fa {
+    
+    /* дальше в сообщениях используется другой красный цвет, хоть он и более тусклый. */
+    /*color: #d9534f;*/
+  }
+  .account_page .my_account_box .login_live_box .acc_link a .fa.fa-upload {
+    color: #5cb85c;
+  }
+  .pass-params {
+    font: 400 12px / 18px 'Open Sans';
+    margin: 10px 15px 20px;
+  }
+  .pass-params .glyphicon {
+    margin-right: 5px;
+  }
+  .valid-indicators {
+    padding: 5px 15px;
+  }
+</style>
 
 <!--- Left Sidebar & content -->   
 
@@ -40,7 +67,8 @@
                     <div class="col-md-6">
                         <div class="user_name_box">Hello, <a href="#">Samet Ateş</a> <span>(ID 77512)</span></div>
                              <div class="user_price_box"><span>24.18 TRY <a href="#balance" data-toggle="modal" >Balance</a></span></div>
-                           
+
+                                 <div class="acc_link"><a href="#new-pass" data-toggle="modal"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Change password</a></div>
                                  <div class="acc_link acc_delete"><a href="#limitations" data-toggle="modal"><i class="fa fa-times-circle-o"></i> Personal Limits</a></div>
                                  <div class="acc_link"><a href="#doc-upload" data-toggle="modal"><i class="fa fa-upload"></i> Document upload</a></div>
                      
@@ -175,6 +203,65 @@
   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
   crossorigin="anonymous"></script>
+
+<!-- password verification -->
+<script> 
+$("input[type=password]").keyup(function(){
+    var ucase = new RegExp("[A-Z]+");
+  var lcase = new RegExp("[a-z]+");
+  var num = new RegExp("[0-9]+");
+  
+  if($("#password1").val().length >= 8){
+    $("#8char").removeClass("glyphicon-remove");
+    $("#8char").addClass("glyphicon-ok");
+    $("#8char").css("color","#00A41E");
+  }else{
+    $("#8char").removeClass("glyphicon-ok");
+    $("#8char").addClass("glyphicon-remove");
+    $("#8char").css("color","#FF0004");
+  }
+  
+  if(ucase.test($("#password1").val())){
+    $("#ucase").removeClass("glyphicon-remove");
+    $("#ucase").addClass("glyphicon-ok");
+    $("#ucase").css("color","#00A41E");
+  }else{
+    $("#ucase").removeClass("glyphicon-ok");
+    $("#ucase").addClass("glyphicon-remove");
+    $("#ucase").css("color","#FF0004");
+  }
+  
+  if(lcase.test($("#password1").val())){
+    $("#lcase").removeClass("glyphicon-remove");
+    $("#lcase").addClass("glyphicon-ok");
+    $("#lcase").css("color","#00A41E");
+  }else{
+    $("#lcase").removeClass("glyphicon-ok");
+    $("#lcase").addClass("glyphicon-remove");
+    $("#lcase").css("color","#FF0004");
+  }
+  
+  if(num.test($("#password1").val())){
+    $("#num").removeClass("glyphicon-remove");
+    $("#num").addClass("glyphicon-ok");
+    $("#num").css("color","#00A41E");
+  }else{
+    $("#num").removeClass("glyphicon-ok");
+    $("#num").addClass("glyphicon-remove");
+    $("#num").css("color","#FF0004");
+  }
+  
+  if($("#password1").val() == $("#password2").val()){
+    $("#pwmatch").removeClass("glyphicon-remove");
+    $("#pwmatch").addClass("glyphicon-ok");
+    $("#pwmatch").css("color","#00A41E");
+  }else{
+    $("#pwmatch").removeClass("glyphicon-ok");
+    $("#pwmatch").addClass("glyphicon-remove");
+    $("#pwmatch").css("color","#FF0004");
+  }
+});
+</script>
 
 <script>
   $('input[name="daterange"]').daterangepicker({

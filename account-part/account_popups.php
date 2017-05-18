@@ -1,3 +1,52 @@
+<!-- Modal new password -->
+
+  <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="new-pass" class="modal fade" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+            <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+          </div>
+          <div class="modal-body">
+
+      <div class="form-group main-info security">
+        <h5 class="my-info-heading block">Change password</h5>
+          <div class="row">
+            <div class="">
+              <form method="post" id="passwordForm">
+                <div class="row pass-params">
+                  <div class="col-sm-12">
+                    <input type="password" class="security-input form-control" name="userpass" id="userpass" placeholder="Current password" autocomplete="off">
+                  </div>
+                </div>
+                <div class="divider"></div>
+                <div class="row pass-params">
+                  <div class="col-sm-6">
+                    <input type="password" class="security-input form-control" name="password1" id="password1" placeholder="New Password" autocomplete="off">
+                    <div class="valid-indicators">
+                      <span id="8char" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> 8 Characters Long<br>
+                      <span id="ucase" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> One Uppercase Letter<br>
+                      <span id="lcase" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> One Lowercase Letter<br>
+                      <span id="num" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> One Number<br>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <input type="password" class="security-input form-control" name="password2" id="password2" placeholder="Repeat Password" autocomplete="off">
+                    <div class="valid-indicators">
+                      <span id="pwmatch" class="glyphicon glyphicon-remove" style="color:#FF0004;"></span> Passwords Match
+                    </div>
+                  </div>
+                </div>
+                <input type="submit" class="btn btn-load btn-primary btn-center apply-security" id="apply-sec" data-loading-text="Changing Password..." value="Change Password">
+              </form>
+            </div><!--/col-sm-6-->
+          </div><!--/row-->
+        </div>  
+
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Modal new mail -->
   <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="new-mail" class="modal fade" style="display: none;">
