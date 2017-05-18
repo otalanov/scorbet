@@ -1,0 +1,135 @@
+
+
+@media (max-width: 1280px) {
+    
+.navbar-top .navbar-nav li a.btn-primary {
+    padding: 7px 6px;
+    margin: 0px 2px;
+    font-size: 12px;
+}
+    
+    
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1110px) {
+    
+.navbar-top .navbar-nav li a {
+    font: 400 12px / 4px 'Open Sans';
+
+}
+
+}
+
+
+@media (max-width: 767px) {
+        
+    .drop-nav {
+        margin: 10px;
+    }
+    
+    .teamone_name {
+    text-align: center;
+    padding: 10px 0px;
+    }
+    .drop_menu .drop-nav li {
+        float: left;
+        padding: 10px 5px;
+    }
+    .teamone_liveicon {
+          border-radius: 3px;
+    line-height: 22px;
+    margin-top: 1px;
+    }
+    .drop_menu .drop-nav li a {
+    font: 400 12px / 17px 'Open Sans';
+    text-transform: none;
+}
+    .teamone_name .teamone_betslipbox span {
+    padding: 6px 6px;
+}
+    .leftbox_livepage {
+        margin-left:auto;
+        min-height: auto;
+    }
+    .header {
+        height: auto;
+        background: #121212;
+    }
+    .navbar-collapse.in {
+        background-color: transparent !important;
+    }
+    .navbar-top .navbar-nav>li {
+        padding: 5px 0px;
+        text-align: center;
+    }
+    .right_sidebar {
+        left: -86px;
+    }
+    #fullpage .footer_line {
+        position: relative;
+        top: inherit;
+        bottom: inherit
+        
+    }
+    .card {
+        display: block;
+        width: 188px;
+        margin: 10px auto !important;
+        height: 262px;
+        position: relative;
+        float: none;
+        transition: 0.5s;
+        left: inherit !important;
+    }
+    .slider_boxes .carousel-control .fa {
+        font-size: 53px;
+        position: absolute;
+        top: 17%;
+        right: 23px;
+    }
+    .slider_boxes .carousel-inner>.item {
+        min-height: initial;
+    }
+    .registration_panel .btn-primary {
+        margin: 10px auto;
+        float: none;
+        display: block;
+        width: 80%;
+    }
+    .slider_boxes .title_slider_boxes:before {
+        width: 16%;
+    }
+        
+    .slider_boxes .title_slider_boxes:after {
+        width: 16%;
+    }
+    .slider_boxes .title_slider_boxes span {
+        font: 300 20px / 14px 'Roboto Condensed';
+        left: 55%;
+    }
+    .getyourbon {
+        display: none;
+    }
+    
+    #fullpage .section {
+        padding: 100px 0px;
+    }
+    
+}
+@media (max-width: 500px) {
+    .achievement .box_infos {
+        color: #ffffff;
+        font: 400 12px / 24px 'Open Sans';
+        text-align: center;
+    }
+    .achievement .box_infos span {
+        color: #ffffff;
+        font: 400 18px / 22px 'Open Sans';
+        display: block;
+    }
+    .achievement .box_infos strong {
+        color: #edc730;
+        font: 700 13px / 24px 'Open Sans';
+    }
+}

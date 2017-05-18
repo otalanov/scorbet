@@ -1,0 +1,47 @@
+	/*
+  	live-scorbet icon font: live-scorbet
+  	Creation date: 11/12/2016 21:51
+  	*/
+
+@font-face {
+  font-family: "live-scorbet";
+  src: url("./live-scorbet.eot");
+  src: url("./live-scorbet.eot?#iefix") format("embedded-opentype"),
+       url("./live-scorbet.woff") format("woff"),
+       url("./live-scorbet.ttf") format("truetype"),
+       url("./live-scorbet.svg#live-scorbet") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "live-scorbet";
+    src: url("./live-scorbet.svg#live-scorbet") format("svg");
+  }
+}
+
+[class^="live-scorbet-"]:before, [class*=" live-scorbet-"]:before,
+[class^="live-scorbet-"]:after, [class*=" live-scorbet-"]:after {   
+  font-family: live-scorbet;
+font-style: normal;
+
+}
+
+.live-scorbet-american-football:before { content: "\f100"; }
+.live-scorbet-ball-of-basketball:before { content: "\f101"; }
+.live-scorbet-bar:before { content: "\f102"; }
+.live-scorbet-cart:before { content: "\f103"; }
+.live-scorbet-cricket:before { content: "\f104"; }
+.live-scorbet-football:before { content: "\f105"; }
+.live-scorbet-ice-hockey-puck:before { content: "\f106"; }
+.live-scorbet-logout:before { content: "\f107"; }
+.live-scorbet-monitor:before { content: "\f108"; }
+.live-scorbet-news:before { content: "\f109"; }
+.live-scorbet-ping-pong:before { content: "\f10a"; }
+.live-scorbet-soccer-ball-variant:before { content: "\f10b"; }
+.live-scorbet-target:before { content: "\f10c"; }
+.live-scorbet-tennis-ball:before { content: "\f10d"; }
+.live-scorbet-ticket:before { content: "\f10e"; }
+.live-scorbet-timer:before { content: "\f10f"; }
+.live-scorbet-volleyball:before { content: "\f110"; }

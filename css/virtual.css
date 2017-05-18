@@ -1,0 +1,359 @@
+a.virt-tab.active, 
+a.virt-tab:focus,
+a.virt-tab:hover {
+    background: #edc730;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #121212;
+}
+a.virt-tab {
+    text-decoration: none;
+    padding: 5px 8px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.virtual-bets-container {
+	max-width: 758px;
+}
+.virtual-bets-filter {
+	text-align: center;
+	margin: 15px 0;
+}
+.game-details a {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #484848;
+    border-radius: 3px;
+    font: 400 14px / 24px 'Open Sans';
+    color: #ddd;
+    cursor: pointer;
+    transition: 0s;
+    overflow: hidden;
+}
+.virtual-bets-container .tab-content {
+    background-color: #292929;
+    border-radius: 15px;
+	overflow: hidden;
+    padding: 10px;
+}
+.game-details a.active,
+.game-details a:hover,
+.game-details a:focus {
+    background-color: #edc730;
+    color: #111;
+    text-decoration: none;
+}
+.game-details.exact-score a.active {
+    color: #edc730;
+}
+.virt-game {
+
+    margin: 1px 0;
+}
+.virt-game:last-of-type {
+    border-bottom: 0;
+}
+.statistics-link .fa-bar-chart {
+    margin-right: 10px;
+}
+#tab3 .mini-text {
+    display: none;
+}
+#tab3 .click-to-bet .team {
+    color: #edc730;;
+    text-transform: lowercase;
+    margin-right: 7px;
+    font-weight: 100;
+    font: 700 11px / 21px 'Open Sans';
+}
+.virt-game div[class*=col-] {
+    padding: 2px 1px;
+}
+.changing-col .game-details > a.click-to-bet > span {
+    font-size: 14px;
+}
+#tab3 .game-details .click-to-bet {
+        /*border: 1px solid #333;*/
+}
+.virt-game .row {
+    margin: 0;
+}
+.handicap-container .fa-times {
+    display: none;
+}
+.handicap-container .click-to-bet span {
+    font-size: 11px;
+    color: #edc730;
+    float: left;
+}
+.handicap-container .click-to-bet span.team,
+.handicap-container .click-to-bet span.odd-value {
+    color: #fff;
+    font-size: 15px;
+}
+.click-to-bet .team,
+.click-to-bet .fa-times {
+    float: left;
+}
+.click-to-bet .odd-value {
+    float: right;
+}
+.handicap-container .click-to-bet .odd-value {
+    float: right;
+}
+.game-details {
+
+}
+.game-details.statistics-link {
+    border-left: 0;
+}
+.click-to-bet .fa-times {
+    float: left;
+    margin-top: 4px;
+    margin-bottom: -15px;
+}
+.game-details.statistics-link a {
+    display: inline-block;
+    background-color: transparent;
+    /* border-bottom: 1px dashed #4d4d4c; */
+    line-height: 21px;
+    padding: 0;
+}
+.game-details.statistics-link a:hover {
+    color: inherit;
+}
+.game-details.statistics-link a .virt-teams {
+    border-bottom: 1px dashed #4d4d4c;
+}
+.game-details.statistics-link a .virt-teams:hover,
+.game-details.statistics-link a .virt-teams:focus {
+    text-decoration: none;
+    border-bottom: 1px solid #edc730;
+    color: #edc730;
+}
+.game-details.exact-score a {
+    display: inline-block;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.game-details.exact-score a .virt-teams {
+    border-bottom: 1px dashed #464646;
+    margin: 0 15px;
+}
+.game-details.exact-score a:hover .virt-teams,
+.game-details.exact-score a:focus .virt-teams {
+    border-bottom: 1px dashed #ffffff;
+    color: #ffffff;
+}
+.game-details.exact-score a:hover .fa-plus,
+.game-details.exact-score a:focus .fa-plus {
+    color: #edc730;
+}
+#tab3 .click-to-bet .team {
+    color: #edc730;
+    font-size: 11px;
+    text-transform: lowercase;
+    margin-right: 7px;
+    font-weight: 100;
+    font: 700 11px / 21px 'Open Sans';
+    font-weight: 400;
+}
+.handicap-container .click-to-bet:hover span.team,
+.handicap-container .click-to-bet:hover span.odd-value {
+    color: #111;
+    font-size: 15px;
+}
+#tab5 .virt-game, #tab6 .virt-game {
+    margin-bottom: 10px;
+}
+.virtual-box .panel-betslips {
+    max-width: 764px;
+    background: #1b1b1b;
+    padding: 21px;
+    margin-left: -15px;
+    margin-right: -15px;
+    -webkit-box-shadow: inset 5px 3px 23px 0px rgba(0,0,0,1);
+    -moz-box-shadow: inset 5px 3px 23px 0px rgba(0,0,0,1);
+    box-shadow: inset 5px 3px 23px 0px rgba(0,0,0,1);
+}
+#tab6 .mini-text {
+    float: left;
+    font-size: 12px;
+}
+.overunder-container .game-details a.btran {
+    background-color: transparent;
+}
+.overunder-container .game-details a.btran:hover {
+    cursor: default;
+    color: inherit;
+}
+
+.greyhounds .game-details a.racing-link,
+.horse-riding .game-details a.racing-link {
+    background-color: transparent;
+}
+.greyhounds .game-details a.racing-link i,
+.horse-riding .game-details a.racing-link i {
+   color: #edc730;
+}
+.greyhounds .game-details a.racing-link span,
+.horse-riding .game-details a.racing-link span {
+    margin: 0 10px;
+}
+.greyhounds .game-details a.racing-link:hover,
+.horse-riding .game-details a.racing-link:hover {
+    background-color: #111;
+    color: #fff;
+}
+.greyhounds .game-details a,
+.horse-riding .game-details a {
+    font: 400 14px / 32px 'Open Sans';
+}
+.greyhounds .click-to-bet .odd-value,
+.horse-riding .click-to-bet .odd-value {
+    float: none; 
+}
+.greyhounds #tab2 .odd,
+.horse-riding #tab2 .odd {
+    margin: 20px 0;
+}
+.greyhounds .odd,
+.horse-riding .odd {
+    padding: 5px;
+    border: 1px solid #313131;
+    color: #ffffff;
+    max-width: 85px;
+    margin: 37px auto;
+    border-radius: 15px;
+    background-color: #111;
+    color: #fff;
+    line-height: 20px;
+
+}
+.greyhounds #tab2,
+.greyhounds #tab3
+.horse-riding #tab2,
+.horse-riding #tab3 {
+    text-align: center;
+}
+
+.bet-link * {
+    transition: 0s;
+}
+.tennis .table-head div[class*=col-] {
+    /*padding: 2px 1px;*/
+    font-size: 12px;
+}
+.tennis-name .virt-name {
+    margin: 0 10px;
+    border-bottom: 1px dashed #484848;
+}
+.basketball-name .virt-name {
+    border-bottom: 1px solid #333;
+}
+.basketball-name a:hover .virt-name,
+.basketball-name a:focus .virt-name, 
+.tennis-name a:hover .virt-name,
+.tennis-name a:focus .virt-name {
+    border-bottom: 1px solid #edc730;
+    color: #fff;
+}
+.game-details.basketball-name a,
+.game-details.tennis-name a {
+    background-color: transparent;
+}
+.game-details.tennis-name a .fa-bar-chart {
+    color: #edc730;
+}
+.tennis .table-head.m0 {
+    /*text-align: center;*/
+}
+.tennis .game-details a {
+    position: relative;
+}
+.basketball .game-details .mini-text,
+.tennis .game-details .mini-text {
+    font-size: 9px;
+    color: #edc730;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    line-height: 1;
+}
+.tennis .click-to-bet .odd-value {
+    float: right;
+    margin-right: -3px;
+    font-size: 13px;
+}
+.tennis .virt-game {
+        border-bottom: 2px groove #333;
+    padding: 5px 0;
+}
+.basketball .game-details a:hover .mini-text, .basketball .game-details a:focus .mini-text,
+.tennis .game-details a:hover .mini-text, .tennis .game-details a:focus .mini-text {
+    color: #5b5b5b;
+}
+.basketball .game-details span.mini-text {  
+/*    font-size: 10px;
+    color: #494949;
+    text-transform: lowercase;*/
+}
+.basketball .game-details .fa-bar-chart {
+        color: #edc730;
+    margin-right: 10px;
+}
+.p0 {
+    text-align: center;
+}
+.row.m0 {
+    margin: 0;
+    text-align: center;
+}
+.basketball .inner-tab {
+    color: #edc730;
+    display: block;
+    background-color: #000;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.basketball .inner-tab:hover {
+    text-decoration: none;
+    color: #111;
+    background-color: #edc730;
+}
+.basketball .click-to-bet .odd-value {
+    float: right;
+    font-size: 12px;
+    margin-right: -3px;
+}
+.tennis .game-details .mini-text {
+    font-size: 10px;
+    color: #edc730;
+     position: absolute; 
+    left: 5px;
+    bottom: 5px;
+    line-height: 1;
+}
+.basketball #tab6 .game-details.btotal .mini-text {
+    font-size: 10px;
+    color: #edc730;
+    position: static; 
+    line-height: 1;
+    float: none;
+    margin-right: -5px;
+}
+.game-details.btotal a {
+    background-color: transparent;
+    text-align: right;
+}
+.game-details.btotal a:hover,
+.game-details.btotal a:focus {
+    background-color: transparent;
+    color: inherit;
+}
+
+
+
+

@@ -1,0 +1,193 @@
+
+.live-casino-box {
+    margin-top: 0px;
+}
+.live-casino-box2 {
+    margin-top: 120px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .live-casino-box2 {
+        flex-wrap: wrap;
+    }
+}
+
+.live-casino-box h1, .live-casino-box2 h1 {
+    color: #e1e1e1;
+    font: 700 52px / 52px 'Roboto Condensed';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.live-casino-box h2, .live-casino-box2 h2{
+    color: #ffffff;
+    font: 400 26px / 26px 'Roboto Condensed';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.live-casino-box2 .live-casino-box-game .ico_cat_box {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+}
+.live-casino-box2 .live-casino-box-game .live-casino-text {
+    font-size: 18px;
+}
+.live-casino-box2 .live-casino-box-game .live-casino-text a{
+    font: 400 12px / 20px 'Open Sans';
+    max-width: 86px;
+    padding: 0px;
+}
+.live-casino-box-game {
+    background: #161616;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.64);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.64);
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    width: 100%;
+    margin: 10px;
+}
+
+.live-casino-box2 .live-casino-box-game {
+    min-height: 170px;
+    max-width: 140px;
+}
+
+
+.live-casino-back .live-casino-box-game {
+    margin: 15px 0px;
+}
+
+
+.live-casino-back .live-casino-box-game .btn-default {
+    border: 1px solid #888888;
+    padding: 0px 10px;
+}
+
+.live-casino-box-game .live-casino-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: .2;
+    background-size: cover !important;
+    border-radius: 15px;
+}
+.live-casino-box2 .live-casino-box-game .live-casino-bg {
+    opacity: 0.4;
+}
+
+.live-casino-box-game-box .live-casino-bg {
+ opacity: 1;   
+    background-position: top center !important;
+}
+
+.live-casino-box-game:hover .live-casino-bg {
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.2;
+}
+
+.live-casino-text{
+    position: absolute;
+    top: 50%;
+    margin-top: -60px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+}
+.live-casino-box-game-box .live-casino-text{
+ top: inherit;
+    bottom: 10px;
+    margin-top: 0px;
+        background: rgba(0,0,0,0.5);
+}
+
+.live-casino-box-game-box .live-cas-name-game > span {
+  display: none;   
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.live-casino-box-game-box:hover .live-casino-text {
+    top: 50%;
+    margin-top: -60px;
+    bottom: inherit;
+    background: transparent;
+}
+.live-casino-box-game-box .live-casino-text a {
+    display: none;
+}
+
+.live-casino-box-game-box:hover .live-casino-text a, .live-casino-box-game-box:hover .live-cas-name-game > span {
+    display: block;
+}
+
+.live-casino-text > span {
+    float: none;
+    text-align: center;
+    margin: 0px auto;
+}
+.live-casino-text a {
+    display: block;
+    margin: 10px auto;
+    max-width: 120px;
+}
+
+.live-casino-back {
+    background: #0f0f0f;
+    border-radius: 15px;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+.live-casino-back > .btn {
+    margin-top: 15px;
+} 
+.live-casino-back > .btn-group {
+    margin: 15px auto 10px auto;
+        display: block;
+    max-width: 360px;
+}
+.live-casino-back > .btn-group > .btn {
+    margin: 0px;
+    max-width: 180px;
+    text-align: center;
+    padding: 7px 10px;
+}
+.live-casino-back > .btn-group > .btn:last-child {
+    border-left: 1px solid #121212;
+}
+.live-casino-back > .btn-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}

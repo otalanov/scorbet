@@ -1,0 +1,35 @@
+	/*
+  	scorbet icon font: scorbet
+  	Creation date: 14/11/2016 17:17
+  	*/
+
+@font-face {
+  font-family: "scorbet";
+  src: url("./scorbet.eot");
+  src: url("./scorbet.eot?#iefix") format("embedded-opentype"),
+       url("./scorbet.woff") format("woff"),
+       url("./scorbet.ttf") format("truetype"),
+       url("./scorbet.svg#scorbet") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "scorbet";
+    src: url("./scorbet.svg#scorbet") format("svg");
+  }
+}
+
+[class^="scorbet-"]:before, [class*=" scorbet-"]:before,
+[class^="scorbet-"]:after, [class*=" scorbet-"]:after {   
+  font-family: scorbet;
+font-style: normal;
+}
+
+.scorbet-buildings:before { content: "\f100"; }
+.scorbet-coins:before { content: "\f101"; }
+.scorbet-interface:before { content: "\f102"; }
+.scorbet-people:before { content: "\f103"; }
+.scorbet-shapes:before { content: "\f104"; }
+.scorbet-signs:before { content: "\f105"; }
